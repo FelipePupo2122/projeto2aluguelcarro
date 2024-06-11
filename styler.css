@@ -1,0 +1,112 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #343a40; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 10px 0; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+}
+
+/* Estilo para o logo no cabeçalho */
+header h1 {
+    font-size: 24px;
+}
+
+/* Estilo para o menu de navegação */
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #343a40; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 20px 0; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+}
+
+/* Estilo para a página inicial */
+.home-content {
+    padding: 50px 0; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+}
+
+.home-content h1 {
+    font-size: 36px; /* Tamanho da fonte do título */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+.home-content p {
+    font-size: 18px; /* Tamanho da fonte do parágrafo */
+    margin-bottom: 40px; /* Espaçamento inferior */
+}
+
+/* Estilo para a grade de carros */
+.car-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+/* Estilo para cada cartão de carro na grade */
+.car-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.car-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.car-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.car-card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.car-card button {
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.car-card button:hover {
+    background-color: #1c2125;
+}
